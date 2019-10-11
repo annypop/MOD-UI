@@ -1,0 +1,40 @@
+#courses
+{
+    margin-top: 8%;
+    background-image: url("C:\Users\Ankit\Desktop\ANGPROJ\src\assets\img\courses\bg.jpg");
+    margin-bottom: 0%;
+    background-size: cover;
+}
+
+.glow {
+    font-size: 60px;
+    color: rgb(42, 37, 37);
+    text-align: center;
+    -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+    -moz-animation: glow 0.5s ease-in-out infinite alternate;
+    animation: glow 0.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px black, 0 0 30px #fff34dd2, 0 0 40px #fff34dd2, 0 0 50px #fff34dd2, 0 0 60px #fff34dd2, 0 0 70px #fff34dd2;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff34dd2, 0 0 40px #fff34dd2, 0 0 50px #fff34dd2, 0 0 60px #fff34dd2, 0 0 70px #fff34dd2, 0 0 80px #fff34dd2;
+    }
+  }
+
+.courses-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
+ .thumbnail{
+     border: 5px solid gray;
+     background-color: black;
+ }
+ .container{
+     color:white;
+     font-weight: bold;
+ }
+

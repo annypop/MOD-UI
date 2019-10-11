@@ -1,0 +1,70 @@
+.footer-copyright
+{
+   background-color: black;
+    position : fixed;
+    bottom :0;
+    width: 100%;
+    height: 2.5rem; 
+    padding: 15px 15px 15px 15px;
+    z-index: 1;
+    color: rgb(212, 177, 20);
+  
+}
+/* .hc{
+    color:white;
+    font-weight: bold;
+}
+.Signin-image {
+    background-image: url("../../../assets/img/Signin.jpg");
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }   */
+
+#register
+{
+    background-image: url("C:\Users\Ankit\Desktop\ANGPROJ\src\assets\img\register\register.jpg");
+    margin-bottom: 0%;
+    background-size: cover;
+    height:100vh;
+}
+.section-subheading{
+    font-weight: bold;
+}
+.glow {
+    font-size: 60px;
+    color: rgb(42, 37, 37);
+    text-align: center;
+    -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+    -moz-animation: glow 0.5s ease-in-out infinite alternate;
+    animation: glow 0.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px black, 0 0 30px #fff34dd2, 0 0 40px #fff34dd2, 0 0 50px #fff34dd2, 0 0 60px #fff34dd2, 0 0 70px #fff34dd2;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff34dd2, 0 0 40px #fff34dd2, 0 0 50px #fff34dd2, 0 0 60px #fff34dd2, 0 0 70px #fff34dd2, 0 0 80px #fff34dd2;
+    }
+  }
+
+.courses-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
+ .thumbnail{
+     border: 5px solid gray;
+     background-color: black;
+ }
+ .container{
+     color:white;
+     font-weight: bold;
+ }
+ .caption{
+     color:black;
+     font-weight:bold;
+ }

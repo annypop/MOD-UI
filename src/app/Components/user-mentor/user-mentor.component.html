@@ -1,0 +1,104 @@
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: black">
+    <h1 style="color: rgb(212, 177, 20)">Tech-Knowledge</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" [routerLink]="'/index'">Home</a>
+                </li>
+            </ul>
+        </form>
+    </div>
+</nav>
+<!-- <div class="Signin-image" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <br>
+                <h3 class="hc">User Registration</h3>
+
+                <div class="card">
+                    <img src="../../../assets/img/img_avatar1.png" class="card-img-top ">
+                    <div class="card-body">
+                        <a class="btn btn-primary" routerLink="/register">Register</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <br>
+                <h3 class="hc">Mentor Registration</h3>
+                <div class="card">
+                    <img src="../../../assets/img/img_avatar1.png" class="card-img-top ">
+                    <div class="card-body">
+                        <a class="btn btn-primary" routerLink="/mentorregister">Register</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+</div> -->
+<section class="page-section" id="register">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading glow">Register Now</h2>
+          <h3 class="section-subheading text-uppercase">Be A Part of Our Organisation</h3>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a [routerLink]="'/mentorregister'">
+              <img src="assets/img/register/mentor.png" alt="mentor" style="width:70%;" height="200vh">
+
+                  <h4 class="courses-heading">Register As Mentor</h4>
+                </a>
+                <div class="caption">
+                  <p class="text-muted">Mentors who lead by example, and deliver a true passion for knowledge that will extend far beyond the classroom walls</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <!--------------blank space-->
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a [routerLink]="'/register'">
+              <img src="assets/img/register/student.png" alt="student" style="width:70%" height="200vh">
+
+                  <h4 class="courses-heading">Register As Student</h4>
+                </a>
+                <div class="caption">
+                  <p class="text-muted mt-3">Don't let what you cannot do, always remember failure is the opportunity to begin again more intelligently.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading">Any good mentor knows how important it is to connect with students</h3>
+        </div>
+      </div>
+
+
+
+    </div>
+</section>
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-30">© 2019 Copyright
+    </div>
+</footer>
